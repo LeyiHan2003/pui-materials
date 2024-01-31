@@ -9,20 +9,7 @@ body {
 }
 
 
-.notecard {
 
-  box-sizing: border-box;
-  width: 450px;
-
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding: 20px;
-
-  border-radius: 8px;
-  background-color: #212121;
-}
 
 
 .notecard-thumbnail {
@@ -70,5 +57,11 @@ body {
 }
 
 .notecard {
+  width: 450px;
+  height: 150px;
+  border-radius: 8px;
   background-color: green;
+  margin: 150px auto 0px auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
